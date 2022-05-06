@@ -11,7 +11,7 @@
 
 /* change body color once header is established*/
 body {
-    color: white;
+    color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -25,11 +25,12 @@ header {
 
 header a {
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 header h1 {
-    margin: 55px 10px;
+    color: white;
+    margin: 55px 10px;    
 }
 
 header nav {
@@ -45,3 +46,70 @@ header nav ul {
 header nav ul li a {
     padding: 60px
 }
+
+/* About Me style begins*/
+
+h2 {
+    font-size: 60px;
+    margin: 40px 0px;
+
+}
+
+.about-me-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-me-flex h2 {
+    padding: 10px 10px 0 50px;
+    border-right: 5px solid red;
+    line-height: 2.5;
+}
+
+.about-me-flex p {
+    text-align: left;
+    padding: 50px 0px;
+}
+
+/* About Me style ends */
+
+/*Work style begins*/
+
+.work-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.work-flex h2 {
+    padding: 10px 10px 0 175px;
+    border-right: 5px solid red;
+    line-height: 2.5;
+}
+
+/*Work style ends*/
+
+.contact-me-flex {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.contact-me-flex h2 {
+    padding: 10px 10px 0 0px;
+    border-right: 5px solid red;
+    line-height: 2.5;
+
+}
+
+/*Footer styles begin*/
+
+footer {
+    background: var(--primary-color);
+    padding: 50px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
