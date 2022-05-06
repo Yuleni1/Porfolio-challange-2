@@ -3,7 +3,45 @@
     --secondary-color: #006064;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* change body color once header is established*/
 body {
-    color: var(--secondary-color);
+    color: white;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Sytle Starts*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: white
+}
+
+header h1 {
+    margin: 55px 10px;
+}
+
+header nav {
+    margin: 70px 10px
+}
+
+header nav ul {
+    display: flex;
+    
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 60px
 }
