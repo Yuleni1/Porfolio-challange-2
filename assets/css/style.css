@@ -13,6 +13,8 @@
 body {
     color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
+    background-image: url("../../assets/images/hero-bg.jpg");
+    background-size: cover;   
 }
 
 /* Header Sytle Starts*/
@@ -20,6 +22,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var(--primary-color);
 }
 
@@ -46,6 +49,14 @@ header nav ul {
 header nav ul li a {
     padding: 60px
 }
+/* Header style ends */
+
+/*Hero style starts*/
+.hero {
+    display: flex;
+
+}
+
 
 /* About Me style begins*/
 
@@ -76,17 +87,31 @@ h2 {
 
 /*Work style begins*/
 
-.work-flex {
+.container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
 }
 
-.work-flex h2 {
+.container h2 {
     padding: 10px 10px 0 175px;
     border-right: 5px solid red;
     line-height: 2.5;
 }
+
+ .row {
+    display: flex;
+  }
+
+  .first-row img {
+    margin-left: 0%; 
+    padding: 10px;
+
+  }
+  
+ .second-row img {
+     margin-left: 0%;
+     padding: 0 0 0 10px;
+ }
+
 
 /*Work style ends*/
 
@@ -113,3 +138,4 @@ footer {
     flex-wrap: wrap;
     width: 100%;
   }
+
