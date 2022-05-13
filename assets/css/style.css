@@ -164,6 +164,7 @@ h2 {
 
 }
 
+
 /*Footer styles begin*/
 
 footer {
@@ -181,10 +182,7 @@ footer {
       position: relative;
     }
 
-    h2 {
-        position: center;
-        
-    }
+
 
     .about-me-flex h2 {
         border-right: none;
@@ -229,4 +227,32 @@ footer {
 
 .contact-me-flex p {
     margin-inline: auto;
+}
+
+  }
+
+@media screen and (max-width: 768px) {
+
+h2 {
+    font-size: 50px;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .about-me-flex p {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .contact-me-flex p {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
 }
