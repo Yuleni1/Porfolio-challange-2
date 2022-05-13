@@ -58,6 +58,7 @@ header nav ul li a {
 }
 
 
+
 /* About Me style begins*/
 
 h2 {
@@ -101,15 +102,49 @@ h2 {
     display: flex;
   }
 
+  .first-row {
+    text-align: center;
+  }
+
+    
+ 
   .first-row img {
     margin-left: 0%; 
     padding: 10px;
 
   }
-  
+
+  .first-row div {
+    position: absolute;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: orange;
+    backdrop-filter: blur(14px) brightness(80%);
+
+  }
  .second-row img {
      margin-left: 0%;
      padding: 0 0 0 10px;
+ }
+
+ .second-row p {
+    position: absolute;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: orange;
+    backdrop-filter: blur(14px) brightness(80%);
+
+ }
+ .second-image {
+    position: absolute;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: orange;
+    backdrop-filter: blur(14px) brightness(80%);
+
  }
 
 
