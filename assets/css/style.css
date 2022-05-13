@@ -174,3 +174,59 @@ footer {
     width: 100%;
   }
 
+  @media screen and (max-width: 980px) {
+    header {
+    padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+
+    h2 {
+        position: center;
+        
+    }
+
+    .about-me-flex h2 {
+        border-right: none;
+        border-bottom: 5px solid red;
+        margin-inline: auto;
+        padding: 5px;
+        line-height: 1;
+
+    }
+
+    .about-me-flex p {
+        text-align: center;
+        margin-inline: auto;
+    }
+
+
+    .container {
+        flex-direction: column;
+    }
+    .container h2 {
+        border-right: none;
+        border-bottom: 5px solid red;
+        margin-inline: auto;
+        padding: 5px;
+        line-height: 1;
+    }
+
+    
+    .contact-me-flex {
+    flex-direction: column;
+    }
+
+
+
+.contact-me-flex h2{
+    border-right: none;
+    border-bottom: 5px solid red;
+    margin-inline: auto;
+    padding: 5px;
+    line-height: 1;
+}
+
+.contact-me-flex p {
+    margin-inline: auto;
+}
