@@ -66,9 +66,15 @@ header nav ul li a {
 
 .hero img {
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 47px 0 rgb(0 0 0 / 85%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     opacity: 0.5;
-    margin:0px 0px 0px 12px;
+    margin: 0px 0px 0px 12px;
+    -webkit-transform: rotate(-29deg);
+    border-bottom: 52px solid white;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+
 }
 
 
@@ -204,7 +210,6 @@ footer {
         border-right: none;
         border-bottom: 5px solid var(--secondary-color);
         margin-inline: auto;
-        padding: 5px;
         line-height: 1;
 
     }
@@ -261,6 +266,15 @@ h2 {
         font-size: 40px;
     }
 
+    header nav ul {
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+
+
+
     .about-me-flex p {
         text-align: center;
         padding: 10px 10px;
@@ -271,4 +285,9 @@ h2 {
         padding: 10px 10px;
     }
 
+    .hero img {
+        margin: auto;
+        -webkit-transform: none;
+
+    }
 }
