@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-/* change body color once header is established*/
+/* Body*/
 body {
     color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
@@ -40,9 +40,6 @@ header a {
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.973); 
 }
-
-
-
 
 header nav {
     margin: 70px 10px
@@ -76,11 +73,9 @@ header nav ul li a {
     border-top: 5px solid white;
 
 }
+/*Hero style ends*/
 
-
-
-/* About Me style begins*/
-
+/*Establishes base styles to all h2*/
 h2 {
     font-size: 60px;
     margin: 40px 0px;
@@ -88,6 +83,9 @@ h2 {
     text-shadow: 0 0 10px rgba(91, 180, 118, 0.973); 
 
 }
+
+
+/* About Me style begins*/
 
 .about-me-flex {
     display: flex;
@@ -103,7 +101,7 @@ h2 {
 
 .about-me-flex p {
     text-align: left;
-    padding: 50px 0px;
+    padding: 50px 0px 50px 10px;
 }
 
 /* About Me style ends */
@@ -129,9 +127,9 @@ h2 {
   }
 
     
- 
   .first-row img {
     margin-left: 0%; 
+    border-radius: 30px;
     padding: 10px;
 
   }
@@ -141,12 +139,14 @@ h2 {
     padding: 1rem;
     font-size: 2rem;
     font-weight: 300;
-    color: orange;
-    backdrop-filter: blur(14px) brightness(80%);
+    color: var(--secondary-color);
+    backdrop-filter: blur(3px) brightness(80%);
+    border-radius: 6px;
 
   }
  .second-row img {
      margin-left: 0%;
+     border-radius: 30px;
      padding: 0 0 0 10px;
  }
 
@@ -155,8 +155,9 @@ h2 {
     padding: 1rem;
     font-size: 2rem;
     font-weight: 300;
-    color: orange;
-    backdrop-filter: blur(14px) brightness(80%);
+    color:  var(--secondary-color);
+    backdrop-filter: blur(3px) brightness(80%);
+    border-radius: 6px;
 
  }
  .second-image {
@@ -164,13 +165,14 @@ h2 {
     padding: 1rem;
     font-size: 2rem;
     font-weight: 300;
-    color: orange;
-    backdrop-filter: blur(14px) brightness(80%);
+    color: var(--secondary-color);
+    backdrop-filter: blur(3px) brightness(80%);
+    border-radius: 6px;
 
  }
-
-
 /*Work style ends*/
+
+/*Contact me style begins*/
 
 .contact-me-flex {
     
@@ -185,7 +187,7 @@ h2 {
     line-height: 2.5;
 
 }
-
+/*Contact me style end*/
 
 /*Footer styles begin*/
 
@@ -196,6 +198,10 @@ footer {
     flex-wrap: wrap;
     width: 100%;
   }
+
+/*Footer style ends*/
+
+/*Media query 980px sytle begins*/
 
   @media screen and (max-width: 980px) {
     header {
@@ -251,7 +257,9 @@ footer {
 }
 
   }
+/*Media query 980px sytle ends*/
 
+/*Media query 768px sytle begins*/
 @media screen and (max-width: 768px) {
 
 h2 {
@@ -259,6 +267,10 @@ h2 {
 }
 
 }
+
+/*Media query 768px sytle ends*/
+
+/*Media query 575px sytle begins*/
 
 @media screen and (max-width: 575px) {
 
@@ -290,4 +302,6 @@ h2 {
         -webkit-transform: none;
 
     }
+
+/*Media query 575px sytle begins*/
 }
