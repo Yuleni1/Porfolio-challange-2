@@ -81,6 +81,7 @@ h2 {
     margin: 40px 0px;
     font-weight: normal;
     text-shadow: 0 0 10px rgba(91, 180, 118, 0.973); 
+    text-shadow: 0 0 10px rgb(3 80 31 / 85%);
 
 }
 
@@ -126,14 +127,19 @@ h2 {
     text-align: center;
   }
 
-    
+  .container img:hover {
+
+    box-shadow: 0 4px 47px 0 rgb(0 0 0 / 85%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+  
   .first-row img {
     margin-left: 0%; 
     border-radius: 30px;
     padding: 10px;
+    
 
   }
-
+ 
   .first-row div {
     position: absolute;
     padding: 1rem;
@@ -178,7 +184,9 @@ h2 {
     
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
+    text-decoration: none;
+    
 }
 
 .contact-me-flex h2 {
@@ -187,6 +195,26 @@ h2 {
     line-height: 2.5;
 
 }
+
+.contact-me-flex ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.contact-me-flex ul li {
+    padding: 20px;
+    margin: auto;
+    font-weight:800;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    font-size: 20px;
+}
+.contact-me-flex a {
+    text-decoration: none;
+    text-shadow: 0 0 10px rgb(3 80 31 / 85%);; 
+}
+
 /*Contact me style end*/
 
 /*Footer styles begin*/
