@@ -29,6 +29,8 @@ SO THAT I can review samples of their work and assess whether they're a good can
 This Portfolio showcases skills and talents by presenting deployed projects. 
 
 ## Deployed Application
+https://yuleni1.github.io/Porfolio-challange-2/
+
 
 ## Technologies Required
 

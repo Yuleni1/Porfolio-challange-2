@@ -86,24 +86,22 @@ h2 {
 
 }
 
-
 /* About Me style begins*/
 
 .about-me-flex {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
 }
 
 .about-me-flex h2 {
-    padding: 10px 10px 0 60px;
+    padding: 10px 10px 0 157px;
     border-right: 3px solid var(--secondary-color);
-    line-height: 2.5;
+    line-height: 1.5;
 }
 
 .about-me-flex p {
     text-align: left;
     padding: 50px 0px 50px 10px;
+    font-weight: 100;
 }
 
 /* About Me style ends */
@@ -200,7 +198,8 @@ h2 {
 .contact-me-flex ul {
     display: flex;
     list-style: none;
-    margin: auto;
+    margin: 100px 0 0 0;
+   
 }
 
 .contact-me-flex ul li {
@@ -210,6 +209,7 @@ h2 {
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     font-size: 20px;
+    text-decoration: underline;
 }
 .contact-me-flex a {
     text-decoration: none;
@@ -222,7 +222,7 @@ h2 {
 
   footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     background-image: linear-gradient(360deg,#194d40,transparent);
   }
@@ -258,13 +258,17 @@ h2 {
       position: relative;
     }
 
-
+    .about-me-flex {
+        flex-direction: column;
+    }
 
     .about-me-flex h2 {
+        text-align: center;
         border-right: none;
         border-bottom: 5px solid var(--secondary-color);
         margin-inline: auto;
         line-height: 1;
+        padding: 0;
 
     }
 
@@ -313,6 +317,11 @@ h2 {
 h2 {
     font-size: 50px;
 }
+.hero img {
+    margin: auto;
+    -webkit-transform: none;
+            transform: none;
+}
 
 }
 
@@ -334,23 +343,17 @@ h2 {
     }
 
 
-
-    .about-me-flex p {
-        text-align: center;
-        padding: 10px 10px;
-    }
-
-    .contact-me-flex p {
-        text-align: center;
-        padding: 10px 10px;
-    }
-
     .hero img {
         margin: auto;
         -webkit-transform: none;
-                transform: rotate(-29deg);
-
+                transform: none;
     }
+
+    .contact-me-flex ul li {
+        text-align: center;
+        padding: 5px;
+    }
+
 
     footer nav ul { 
         align-items: center;
