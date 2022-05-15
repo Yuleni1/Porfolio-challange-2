@@ -45,7 +45,7 @@ https://yuleni1.github.io/Porfolio-challange-2/
 * Git Bash
 
 
-## Contributin 
+## Contribution 
 
 Yuleni Martinez-Valenzuela
 
