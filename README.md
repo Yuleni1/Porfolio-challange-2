@@ -31,6 +31,7 @@ This Portfolio showcases skills and talents by presenting deployed projects.
 ## Deployed Application
 https://yuleni1.github.io/Porfolio-challange-2/
 
+![Yulenis Portfolio](/assets/images/Web%20capture_15-5-2022_171139_yuleni1.github.io.jpeg)
 
 ## Technologies Required
 
